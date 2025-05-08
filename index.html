@@ -13,19 +13,30 @@
           extend: { // Extend the default theme
             colors: {
               primary: {
+                // Define primary colors (e.g., black)
+                // You can add shades like 50, 100, ..., 900 if needed
                 DEFAULT: '#000000', // Black for bg-primary, text-primary etc.
+                // Example adding a darker shade:
+                // dark: '#some_darker_shade',
               },
               accent: {
+                // Define accent colors (e.g., pink)
                 DEFAULT: '#E10098', // Dark Pink for bg-accent, text-accent etc.
-                hover: '#ff1aa8',   // Lighter pink for hover:text-accent-hover etc.
+                hover: '#ff1aa8',   // Lighter pink for hover states (e.g., hover:text-accent-hover)
+                // Example adding darker/lighter shades:
+                // dark: '#c5007e',
+                // light: '#f569bf',
+                // lightest: '#fef1f7', // Very light for backgrounds
               },
+              // You can add other custom colors here
+              // secondary: { DEFAULT: '#...' },
             }
           }
         }
       }
     </script>
     <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
-    </head>
+  </head>
   <body>
     <div id="root"></div>
 
