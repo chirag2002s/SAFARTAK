@@ -1,7 +1,7 @@
 // src/services/authService.js
 
 // Define your backend API base URL (Define only once)
-const API_BASE_URL = 'http://localhost:5000/api'; // Adjust port if needed
+const API_BASE_URL = 'hhttps://safartak.onrender.com'; // Adjust port if needed
 
 /**
  * Helper function to handle fetch responses and errors consistently.
