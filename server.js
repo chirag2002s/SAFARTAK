@@ -1,4 +1,4 @@
-// server.js (Backend - With Specific CORS Configuration)
+// server.js (Backend - With Specific CORS Configuration & Removed UserRoutes)
 
 // --- 1. Import Dependencies ---
 const express = require('express');
@@ -21,7 +21,7 @@ const paymentRoutes = require('./routes/payments');
 const rideRoutes = require('./routes/rides');
 const scheduleRoutes = require('./routes/schedules');
 const reviewRoutes = require('./routes/reviewRoutes');
-const userRoutes = require('./routes/userRoutes'); // Ensure this is imported
+// const userRoutes = require('./routes/userRoutes'); // *** REMOVED THIS LINE ***
 
 // --- 4. Connect to Database ---
 connectDB();
@@ -83,7 +83,7 @@ app.use('/api/payments', paymentRoutes);
 app.use('/api/rides', rideRoutes);
 app.use('/api/schedules', scheduleRoutes);
 app.use('/api/reviews', reviewRoutes);
-app.use('/api/users', userRoutes); // Ensure userRoutes is mounted
+// app.use('/api/users', userRoutes); // *** REMOVED THIS LINE ***
 
 // --- ERROR HANDLER MIDDLEWARE (MUST BE LAST after routes) ---
 app.use(errorHandler);
