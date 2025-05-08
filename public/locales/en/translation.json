@@ -1,0 +1,46 @@
+{
+    "appName": "Safartak",
+    "nav": {
+      "home": "Home",
+      "login": "Login",
+      "signup": "Sign Up",
+      "dashboard": "Dashboard",        // <-- Ensure this key exists
+      "newBooking": "New Booking",    // <-- Ensure this key exists
+      "logout": "Logout",
+      "greeting": "Hi, {{name}}!"
+    },
+    "footer": {
+      "copyright": "© {{year}} Safartak. All rights reserved."
+    },
+    "homePage": {
+      "title": "Home Page (Safartak)",
+      "welcome": "Welcome to Safartak Shuttle Service!"
+    },
+    "loginPage": {
+      "title": "Login to Safartak",
+      "emailLabel": "Email",
+      "passwordLabel": "Password",
+      "button": "Sign In",
+      "loadingButton": "Logging in...",
+      "adminLoginLink": "Admin Login"
+    },
+    "signupPage": {
+      "title": "Create Safartak Account",
+      "nameLabel": "Name",
+      "emailLabel": "Email",
+      "phoneLabel": "Phone Number",
+      "passwordLabel": "Password",
+      "confirmPasswordLabel": "Confirm Password",
+      "button": "Sign Up",
+      "loadingButton": "Registering...",
+      "loginLink": "Already have an account? Login"
+    },
+    "adminLoginPage": {
+      "title": "Admin Login",
+      "emailLabel": "Admin Email",
+      "passwordLabel": "Password",
+      "button": "Admin Sign In",
+      "loadingButton": "Logging in..."
+    }
+  }
+  
